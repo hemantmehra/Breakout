@@ -79,11 +79,9 @@ int main()
 
                 if ((y1 < _y1 && _y2 < y2)) {
                     speed.x *= -1.0f;
-                    printf("x\n");
                 }
                 else if (x1 < _x1 && _x2 < x2) {
                     speed.y *= -1.0f;
-                    printf("y\n");
                 }
                 else {
                     speed.x *= -1.0f;
